@@ -1,0 +1,2047 @@
+[
+  {
+    "districtName": "TopDestinations",
+    "description" : "These are the Top destination of Gujarat. Don't Miss one",
+    "content": [
+      {
+        "SrNo": 1,
+        "place": "Statue Of Unity",
+        "description": "",
+        "city": "Narmada",
+        "image":   "TopDestinations/Statue-of-Unity.jpg"
+      },
+      {
+        "SrNo": 2,
+        "place": "Dwarkadish Temple",
+        "description": "",
+        "city": "Devbhoomi Dwarka",
+        "image": "TopDestinations/Dwarkadhish-Temple.jpg"
+      },
+      {
+        "SrNo": 3,
+        "place": "Adi Kadi Vav",
+        "description": "",
+        "city": "Junagadh",
+        "image": "TopDestinations/Adi-Kadi-Vav.jpg"
+      },
+      {
+        "SrNo": 4,
+        "place": "Somnath Jyotirling Temple",
+        "description": "",
+        "city": "Gir Somnath",
+        "image": "TopDestinations/somnath-jyotirling.jpg"
+      },
+      {
+        "SrNo": 5,
+        "place": "Pavagadh Hill",
+        "description": "",
+        "city": "Panchmahal",
+        "image": "TopDestinations/pavagadh-temple.jpg"
+      }, 
+      {
+        "SrNo": 6,
+        "place": "Adalaj Ni Vav",
+        "description": "",
+        "city": "Gandhinagar",
+        "image": "TopDestinations/Adalajni-Vav.jpg"
+      },
+      {
+        "SrNo": 7,
+        "place": "Great Rann of Kutch",
+        "description": "",
+        "city": "Kutch",
+        "image": "TopDestinations/Great-Rann-Of-Kutch.jpg"
+      },
+      {
+        "SrNo": 8,
+        "place": "Smritivan",
+        "description": "",
+        "city": "Bhuj",
+        "image": "TopDestinations/Smritivan.jpg"
+      },
+      {
+        "SrNo": 9,
+        "place": "Polo-Forest",
+        "description": "",
+        "city": "Sabarkantha",
+        "image": "TopDestinations/Polo-Forest.jpg"
+      },
+      {
+        "SrNo": 10,
+        "place": "Girnar Hills",
+        "description": "",
+        "city": "Junagadh",
+        "image": "TopDestinations/Girnar-Hills.jpg"
+      },
+      {
+        "SrNo": 11,
+        "place": "Gir national Park",
+        "description": "",
+        "city": "GIR Somnath",
+        "image": "TopDestinations/Sasan-Gir.jpg"
+      },
+      {
+        "SrNo": 12,
+        "place": "Shivrajput Beach",
+        "description": "",
+        "city": "Devbhoomi Dwarka",
+        "image": "TopDestinations/shivrajpur-beach.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Wildlife",
+    "description" : "Anand is a town in the Anand district of state Gujarat, India. It is often called 'The Milk City of India'.",
+    "content": [
+      {
+        "SrNo": 1,
+        "place": "Gir national Park",
+        "description": "",
+        "city": "Gir Somnath",
+        "image":   "Wildlife/Sasan-Gir.jpg"
+      },
+      {
+        "SrNo": 2,
+        "place": "Velavadar Blackbuck National Park",
+        "description": "",
+        "city": "",
+        "image":   "Wildlife/Velavadar-Blackbuck-National-Park.jpg"
+      },
+      {
+        "SrNo": 3,
+        "place": "Vansda National Park",
+        "description": "",
+        "city": "",
+        "image":   "Wildlife/Vansda-National-Park.jpg"
+      },
+      {
+        "SrNo": 4,
+        "place": "Marine National Park",
+        "description": "",
+        "city": "Jamnagar",
+        "image":   "Wildlife/narara-marine-national-park.jpg"
+      },
+      {
+        "SrNo": 5,
+        "place": "Kutch Dessert Sanctuary",
+        "description": "",
+        "city": "Kutch",
+        "image":   "Wildlife/Kutch-Desert-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 6,
+        "place": "Wild Ass Sanctuary",
+        "description": "",
+        "city": "Kutch",
+        "image":   "Wildlife/Wild-Ass-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 7,
+        "place": "Shoolpaneshwar Wildlife Sanctuary",
+        "description": "",
+        "city": "Narmada",
+        "image":   "Wildlife/Shoolpaneshwar-Wildlife-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 8,
+        "place": "Balaram Ambaji Wildlife Sanctuary",
+        "description": "",
+        "city": "Banaskantha",
+        "image":   "Wildlife/Balaram-Ambaji-Wildlife-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 9,
+        "place": "Barda Wildlife Saanctuary",
+        "description": "",
+        "city": "Porbandar",
+        "image":   "Wildlife/Barda-Hills-Wildlife-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 10,
+        "place": "Jessore Sloth Bear Sanctuary",
+        "description": "",
+        "city": "Banaskantha",
+        "image":   "Wildlife/Jessore-Sloth-Bear-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 11,
+        "place": "Purna Wildlife Sanctuary",
+        "description": "",
+        "city": "Dang",
+        "image":   "Wildlife/Purna-Wildlife-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 12,
+        "place": "Jambughoda Wildlife Sanctuary",
+        "description": "",
+        "city": "Panchmahal",
+        "image":   "Wildlife/Jambughoda-Wildlife-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 13,
+        "place": "Ratanmahal Sloth Bear Sanctuary",
+        "description": "",
+        "city": "Dahod",
+        "image":   "Wildlife/Ratanmahal-Sloth-Bear-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 14,
+        "place": "Pania Wildlife Sanctuary",
+        "description": "",
+        "city": "Amreli",
+        "image":   "Wildlife/Pania-Wildlife-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 15,
+        "place": "Rampara wildlife Sanctuary",
+        "description": "",
+        "city": "Morbi",
+        "image":   "Wildlife/Rampara-Wildlife-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 16,
+        "place": "Hingolgadh Sanctuary",
+        "description": "",
+        "city": "Rajkot",
+        "image":   "Wildlife/Hingolgadh-Nature-Education-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 17,
+        "place": "Thol Lake Bird Sanctuary",
+        "description": "",
+        "city": "Ahmedabad",
+        "image":   "Wildlife/Thol-lake-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 18,
+        "place": "Nalsarovar Bird Sanctuary",
+        "description": "",
+        "city": "Ahmedabad",
+        "image":   "Wildlife/Nal-Sarovar-Bird-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 19,
+        "place": "Khijadia Bird Sanctuary",
+        "description": "",
+        "city": "Jamnagar",
+        "image":   "Wildlife/Khijadia-Bird-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 20,
+        "place": "Porbandar Bird Sanctuary",
+        "description": "",
+        "city": "Porbandar",
+        "image":   "Wildlife/Porbandar-Bird-Sanctuary.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Temples",
+    "description" : "Anand is a town in the Anand district of state Gujarat, India. It is often called 'The Milk City of India'.",
+    "content": [
+      {
+        "SrNo": 1,
+        "place": "Shree Somnath Jyotirling Temple",
+        "description": "",
+        "city": "Somnath",
+        "image":   "Temples/Somnath-Temple.jpg"
+      },
+      {
+        "SrNo": 2,
+        "place": "Dwarkadish Temple",
+        "description": "",
+        "city": "",
+        "image":   "Temples/Dwarkadhish-Temple.jpg"
+      },
+      {
+        "SrNo": 3,
+        "place": "Ambaji Temple",
+        "description": "",
+        "city": "",
+        "image":   "Temples/ambaji-temple.jpg"
+      },
+      {
+        "SrNo": 4,
+        "place": "Kalika Mata Temple, Pavagadh",
+        "description": "",
+        "city": "",
+        "image":   "Temples/pavagadh-temple.jpg"
+      },
+      {
+        "SrNo": 5,
+        "place": "Ashapura Mata Temple",
+        "description": "",
+        "city": "",
+        "image":   "Temples/Ashapuri-temple-kutch.jpg"
+      },
+      {
+        "SrNo": 6,
+        "place": "Palitana Jain Temples",
+        "description": "",
+        "city": "",
+        "image":   "Temples/Palitana-And-Shatrunjaya-Hill.jpg"
+      },
+      {
+        "SrNo": 7,
+        "place": "Shankheshwar Jain Temple",
+        "description": "",
+        "city": "",
+        "image":   "Temples/Shankheshwar-jain-temple.jpg"
+      },
+      {
+        "SrNo": 8,
+        "place": "Hutheesing Jain Temple",
+        "description": "",
+        "city": "",
+        "image":   "Temples/Hutheesing-Jain-Temple.jpg"
+      },
+      {
+        "SrNo": 9,
+        "place": "Taranga Jain Temple",
+        "description": "",
+        "city": "",
+        "image":   "Temples/Taranga-Jain-Temple.jpg"
+      },
+      {
+        "SrNo": 10,
+        "place": "Neminath Jain Temple, Girnar",
+        "description": "",
+        "city": "",
+        "image":   "Temples/girnar-jain-temple.jpg"
+      },
+      {
+        "SrNo": 11,
+        "place": "Akshardham Temple",
+        "description": "",
+        "city": "",
+        "image":   "Temples/Akshardham-Temple.jpg"
+      },
+      {
+        "SrNo": 12,
+        "place": "Vadtal Swaminarayan Temple",
+        "description": "",
+        "city": "",
+        "image":   "Temples/baps_temple_vadtal.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Art-Craft",
+    "description" : "Anand is a town in the Anand district of state Gujarat, India. It is often called 'The Milk City of India'.",
+    "content": [
+      {
+        "SrNo": 1,
+        "place": "Patola Silk",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Patola-Silk.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Bandhani tie-dye",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Bandhni-tie-and-dye.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Kutch Embroidery",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Kutch-Embroidery.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Zari Work",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Sankheda Furniture",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Sankheda-furniture.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Ajrakh Printing",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Ajrakh-printing.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Matani-Pachedi",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Matani-pachadi.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Wood Carving",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Wood-Carving.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Pottery & Terracotta",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Pottery-Terracotta.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "Leather Work",
+        "description": "",
+        "city": "",
+        "image":   "Art-Craft/Leather-work.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Festivals",
+    "description" : "Anand is a town in the Anand district of state Gujarat, India. It is often called 'The Milk City of India'.",
+    "content": [
+      {
+        "SrNo": 1,
+        "place": "Navratri",
+        "description": "",
+        "city": "",
+        "image":   "Festivals/Navratri.jpg"
+      },
+      {
+        "SrNo": 2,
+        "place": "Uttarayan",
+        "description": "",
+        "city": "",
+        "image":   "Festivals/Uttarayan-Festival.jpg"
+      },
+      {
+        "SrNo": 3,
+        "place": "Rath Yatra, Ahmedabad",
+        "description": "",
+        "city": "",
+        "image":   "Festivals/Jagannath-Rath-Yatra-Ahmedabad.jpg"
+      },
+      {
+        "SrNo": 4,
+        "place": "Kankaria Carnival",
+        "description": "",
+        "city": "",
+        "image":   "Festivals/Kankaria-Carnival.jpg"
+      },
+      {
+        "SrNo": 5,
+        "place": "Rann Utsav",
+        "description": "",
+        "city": "",
+        "image":   "Festivals/Rann-Utsav.jpg"
+      },
+      {
+        "SrNo": 6,
+        "place": "Ganesh chaturthi",
+        "description": "",
+        "city": "",
+        "image":   "Festivals/Ganesh-Chaturthi-Baroda.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Adventure",
+    "description" : "Anand is a town in the Anand district of state Gujarat, India. It is often called 'The Milk City of India'.",
+    "content": [
+      {
+        "SrNo": 1,
+        "place": "",
+        "description": "",
+        "city": "",
+        "image":   "Adventure/.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "",
+        "description": "",
+        "city": "",
+        "image":   "Adventure/.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "",
+        "description": "",
+        "city": "",
+        "image":   "Adventure/.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "",
+        "description": "",
+        "city": "",
+        "image":   "Adventure/.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "",
+        "description": "",
+        "city": "",
+        "image":   "Adventure/.jpg"
+      },
+      {
+        "SrNo": 1,
+        "place": "",
+        "description": "",
+        "city": "",
+        "image":   "Adventure/.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Anand",
+    "description" : "Anand is a town in the Anand district of state Gujarat, India. It is often called 'The Milk City of India'.",
+    "content": [
+      {
+        "SrNo": 1,
+        "place": "Amul Dairy",
+        "description": "The Anand Milk Union Limited (AMUL) is India's largest food product organization and a cooperative dairy movement that revolutionized the dairy industry in India. It is a symbol of India's white revolution and a significant economic driver for the region.",
+        "city": "Anand",
+        "image":   "Anand/amul_dairy_1.jpg"
+      },
+      {
+        "SrNo": 2,
+        "place": "Sardar Patel Memorial, Karamsad",
+        "description": "The Sardar Patel Memorial in Anand, Gujarat, honors the Iron Man of India, Sardar Vallabhbhai Patel. Located in the town of Anand, it features an impressive collection of photographs, documents, and statues. The peaceful surroundings make it a perfect place for reflection on Patel's leadership and vision. ",
+        "city": "Karamsad",
+        "image": "Anand/sardar_Patel_Memorial.jpg"
+      },
+      {
+        "SrNo": 3,
+        "place": "BAPS Shri Swaminarayan Mandir, Vadtal",
+        "description": "A prominent Swaminarayan temple known for its intricate architecture and spiritual significance. It serves as a center for religious and cultural activities in Vidyanagar, Anand District.",
+        "city": "Vadtal",
+        "image": "Anand/baps_temple_vadtal.jpg"
+      },
+      {
+        "SrNo": 4,
+        "place": "Floart Museum",
+        "description": "A unique museum located in Anand dedicated to the art of floral arrangements and decorations. It showcases various creative uses of flowers and plants.",
+        "city": "Anand",
+        "image": "Anand/floart_museum.jpg"
+      },
+      {
+        "SrNo": 5,
+        "place": "Jalaram Mandir, Anand",
+        "description": "A temple dedicated to Saint Jalaram Bapa, revered for his compassion and service to the needy, located in Anand. It serves as a place of worship and community gathering.",
+        "city": "Anand",
+        "image": "Anand/jalaram_mandir_anand.jpg"
+      }, 
+      {
+        "SrNo": 6,
+        "place": "Local Handicraft Fairs in Anand District",
+        "description": "Various local fairs and markets across Anand District showcase traditional Gujarati handicrafts, including pottery, embroidery, and woodwork. These events provide a platform for artisans and preserve local crafts.",
+        "city": "Various locations in Anand District",
+        "image": "Anand/handicraft_fair_anand_1.jpg"
+      },
+      {
+        "SrNo": 7,
+        "place": "Shree Rokadiya Hanumanji Mandir, Anand",
+        "description": "A revered Hanuman temple located in Anand known for its spiritual significance and the large number of devotees it attracts.",
+        "city": "Anand",
+        "image": "Anand/rokadiya_hanumanji_anand_1.jpg"
+      },
+      {
+        "SrNo": 8,
+        "place": "Lambhvel Hanumanji Temple and Fair",
+        "description": "A significant Hanuman temple in Lambhvel village near Anand, known for its Swayambhu (self-manifested) idol. A large fair is held annually, attracting thousands of devotees.",
+        "city": "Lambhvel (near Anand)",
+        "image": "Anand/lambhvel_hanuman_1.jpg"
+      },
+      {
+        "SrNo": 9,
+        "place": "Ashapuri Dham, Piplav",
+        "description": "A temple dedicated to Ashapuri Mataji located in Piplav, Anand District. It is a significant religious site for the local community.",
+        "city": "Piplav",
+        "image": "Anand/ashapuri_dham_1.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Ahmedabad",
+    "description" : "Ahmedabad is a city in western India.The Sabarmati River runs through its center. Ahmedabad is famous for its textile industry and is known as the...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Sabarmati Ashram",
+        "description": "",
+        "city": "Ahmedabad",
+        "image": "Ahmedabad/Sabarmati-Ashram.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Kochrab Ashram",
+        "description": "Established by Mahatma Gandhi in 1915, this ashram marks the beginning of his Satyagraha movement. It houses a museum with personal artifacts, photographs, and writings of Gandhi.",
+        "city": "Ahmedabad",
+        "image": "Ahmedabad/Kochrab-Ashram.jpg"
+      },
+      { 
+        "SrNo": 3,
+        "place": "Kankaria Lake",
+        "description": "The largest lake in Ahmedabad, featuring a zoo, toy train, kids' city, tethered balloon ride, and more.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/kankaria-lake.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Sardar Vallabhbhai Patel National Memorial", 
+        "description": "A museum and exhibition center dedicated to India's first Deputy Prime Minister, housed in the Moti Shahi Mahal.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Sardar-Vallabhbhai-Patel-National-Museum.jpg" 
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Law Garden", 
+        "description": "A public park known for its handicraft market and street food stalls.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Law-Garden.jpg" 
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Manek Chowk", 
+        "description": "A city square that transforms from a vegetable market in the morning to a jewelry market in the afternoon and a foodie's paradise at night.", 
+        "city": "Ahmedabad", 
+        "image": "" 
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Sabarmati Riverfront", 
+        "description": "A rejuvenated riverfront area hosting events like marathons, flower shows, and cultural festivals.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Sabarmati-Riverfront.jpg" 
+      },
+      { 
+        "SrNo": 8, 
+        "place": "Hutheesing Jain Temple", 
+        "description": "Built in 1848 by Sheth Hutheesing, this temple is dedicated to Lord Dharmanatha and features intricate carvings and a marble courtyard.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Hutheesing-Jain-Temple.jpg" 
+      },
+      { 
+        "SrNo": 9, 
+        "place": "Kumbharia Jain Temples", 
+        "description": "Located in Kumbhariya, these temples were constructed between 1062 and 1231 CE during the reign of the Chaulukya dynasty and are noted for their elaborate architecture.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Kumbharia-Jain-Temples.jpg" 
+      },
+      { 
+        "SrNo": 10, 
+        "place": "Camp Hanuman Temple", 
+        "description": "Founded over 250 years ago, this temple is dedicated to Lord Hanuman and is renowned for its religious significance and association with soldiers.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Camp_Hanuman.jpg" 
+      },
+      { 
+        "SrNo": 11, 
+        "place": "Indrashil Tirth Shantivan", 
+        "description": "A spiritual complex dedicated to Smt. Shilaben Indravadan Modi, featuring a Nagara-style temple with deities from Shaiv, Shakti, and Vaishnav traditions.", 
+        "city": "Dholka", 
+        "image": "Ahmedabad/Indrashil-Tirth-Shantivan.jpg" 
+      },
+      { 
+        "SrNo": 12, 
+        "place": "Kanoria Centre for Arts", 
+        "description": "A cultural hub promoting traditional and contemporary art forms through exhibitions, workshops, and performances.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Kanoria-Centre-for-Arts.jpg" 
+      },
+      { 
+        "SrNo": 13, 
+        "place": "Heritage Walk", 
+        "description": "A guided tour through the walled city, showcasing architectural marvels, stepwells, and the rich history of Ahmedabad.", 
+        "city": "Ahmedabad", 
+        "image": "" 
+      },
+      { 
+        "SrNo": 14, 
+        "place": "Jhulta Minara", 
+        "description": "Known as the Shaking Minarets, this 15th-century mosque features two minarets that vibrate simultaneously when one is shaken.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Jhulta-Minara.jpg" 
+      },
+      { 
+        "SrNo": 15, 
+        "place": "Auto World Vintage Car Museum", 
+        "description": "Displays a vast collection of vintage and classic cars, showcasing automotive history and design.​", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Auto-World-Vintage-Car-Museum.jpg" 
+      },
+      { 
+        "SrNo": 16,
+        "place": "Bai Harir ni Vav", 
+        "description": "A 15th-century stepwell in Ahmedabad, showcasing intricate Indo-Islamic architecture and stone carvings, built for water conservation", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Bai-Harir-ni-Vav.jpg" 
+      },
+      { 
+        "SrNo": 17, 
+        "place": "Atal Bridge", 
+        "description": "A modern pedestrian bridge over the Sabarmati River in Ahmedabad, known for its eye-catching design and vibrant LED lighting.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Atal-bridge.jpg" 
+      },
+      { 
+        "SrNo": 19, 
+        "place": "Science City", 
+        "description": "An interactive science center featuring exhibits on space, robotics, and environmental science, catering to all age groups.​",
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Science-City.jpg" 
+      },
+      { 
+        "SrNo": 20, 
+        "place": "Lothal", 
+        "description": "An ancient Indus Valley Civilization site, Lothal was a major center for trade and bead-making, with a well-planned dockyard.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Lothal.jpg" 
+      },
+      { 
+        "SrNo": 21, 
+        "place": "Thol Lake Sanctuary", 
+        "description": "", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Thol-lake-Sanctuary.jpg" 
+      },
+      { 
+        "SrNo": 22, 
+        "place": "Nalsarovar Bird Sanctuary", 
+        "description": "", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Nalsarovar-Bird-Sanctuary.jpg" 
+      },
+      { 
+        "SrNo": 23, 
+        "place": "Kensville Golf Living", 
+        "description": "A golf resort with an 18-hole signature golf course, luxury accommodations, event spaces, and a blend of colonial architecture. ", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/Kensville-Golf-and-Country-Club.jpg" 
+      },
+      { 
+        "SrNo": 24, 
+        "place": "EKA Club ", 
+        "description": "A premium sports and leisure club featuring facilities for football, basketball, cricket, swimming, and more. It also offers banquet halls, suites, and wellness services.", 
+        "city": "Ahmedabad", 
+        "image": "Ahmedabad/eke-club.jpg" 
+      },
+      { 
+        "SrNo": 25, 
+        "place": "Glade One Golf Club ", 
+        "description": "A Gary Player-designed 9-hole championship golf course set in a serene environment, offering luxury resort amenities and a pro shop.", 
+        "city": "Near Ahmedabad", 
+        "image": "Ahmedabad/Glade-One-Golf-Club.jpg" 
+      },
+      { 
+        "SrNo": 25, 
+        "place": "Kite Museum", 
+        "description": "Situated in Ahmedabad, Kite Museum is a prime tourist attraction of Gujarat. The museum is a part of Sanskar Kendra, which was formed in 1954 as the cultural centre of Ahmedabad.", 
+        "city": "Near Ahmedabad", 
+        "image": "Ahmedabad/Kite-Museum.jpg" 
+      }
+    ]
+  },
+
+  {
+    "districtName": "Rajkot",
+    "description" : "Traditional crafts are well-known in Rajkot (silver work, embroidery, and patola weaving). It is located around 45 miles (72 km) southeast of...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Riverside Palace",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Riverside-Palace.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Khambhalida Buddihist Caves",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Khambalida-Caves.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Orchard Place",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Orchard-Palace.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Rottary Doll Museum",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Rottary-doll-Museum.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Hingolgadh Nature Education Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Hingolgadh-Nature-Education-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Kaba Gandhi No Delo",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Kaba-Gandhi-No-Delo.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Khodaldham Temple",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/khodaldham.jpg"
+      },
+      { 
+        "SrNo": 8, 
+        "place": "Watson Museum",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Watson-Museum.jpg"
+      },
+      { 
+        "SrNo": 9, 
+        "place": "Mahatma Gandhi Museum",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Mahatma-Gandhi-Museum-Rajkot.jpg"
+      },
+      { 
+        "SrNo": 10, 
+        "place": "Khirasara Place",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Khirasara-Palace.jpg"
+      },
+      { 
+        "SrNo": 11, 
+        "place": "RamKrishna Ashram",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/RamKrishna-Mission.jpg"
+      },
+      { 
+        "SrNo": 12, 
+        "place": "Royal Vintage Car Collection",
+        "description": "",
+        "city": "",
+        "image": "Rajkot/Royal-Vintage-Car-Collection.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Gandhinagar",
+    "description" : "Gujarat’s capital, Gandhinagar located on the banks of the Sabarmati River is named after Mahatma Gandhi, the Father of the Nation. It is a...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Akshardham Temple",
+        "description": "",
+        "city": "",
+        "image": "Gandhinagar/Akshardham-Temple.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Indroda Dianosaur & Fossil Park",
+        "description": "",
+        "city": "",
+        "image": "Gandhinagar/Indroda-Dinosaur-and-Fossil-Park.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Adalaj Trimandir",
+        "description": "",
+        "city": "",
+        "image": "Gandhinagar/Adalaj-Trimandir.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Adalaj Ni Vav",
+        "description": "",
+        "city": "",
+        "image": "Gandhinagar/Adalaj-ni-Vav.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Dandi Kutir Meseum",
+        "description": "",
+        "city": "",
+        "image": "Gandhinagar/dandi-kutir-museum.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Aalloa Hills Resort",
+        "description": "",
+        "city": "",
+        "image": "Gandhinagar/Aalloa-Hills-Resort.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Taj Gandhinagar Resort",
+        "description": "",
+        "city": "",
+        "image": "Gandhinagar/Taj-Gandhinagar-Resort.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Surendranagar",
+    "description" : "With many ginning and pressing factories, Surendranagar in Gujarat is the centre of cotton and ginning activity in India. One of the world's...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Wild Ass Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Surendranagar/Wild-Ass-Sanctuary.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Kutch",
+    "description" : "Kutch is a vast salt marsh desert in India that is home to many significant sites that belong to the Indus Valley Civilization. Thousands of travelers...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Great Rann Of Kutch",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Great-Rann-Of-Kutch.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Dholavira",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Dholavira.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Rakshak-Van",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Rakshak-Van.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Lakhpat Fort",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Lakhpat-Fort.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Lyati Riverbed",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Lyari-Riverbed.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Pingleshwar Beach",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Pingleshwar-Beach.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Kutch Dessert Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Kutch-Desert-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 8, 
+        "place": "Mamai Devi Kaliya Dhrow",
+        "description": "",
+        "city": "",
+        "image": "Kutch/mamai-devi-kaliya-dhrow.jpg"
+      },
+      { 
+        "SrNo": 9, 
+        "place": "Regional Science Centre",
+        "description": "",
+        "city": "",
+        "image": "Kutch/science-gallery.jpg"
+      },
+      { 
+        "SrNo": 10, 
+        "place": "Narayan Sarovar",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Narayan-Sarovar.jpg"
+      },
+      { 
+        "SrNo": 11, 
+        "place": "Royal Chhatardis",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Royal-Chhatardis.jpg"
+      },
+      { 
+        "SrNo": 12, 
+        "place": "Smritivan",
+        "description": "",
+        "city": "",
+        "image": "Kutch/kutch-smritivan.jpg"
+      },
+      { 
+        "SrNo": 13, 
+        "place": "Koteshwar Mahadev Temple",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Koteshwar-Mahadev-Temple.jpg"
+      },
+      { 
+        "SrNo": 14, 
+        "place": "Hamirsar Lake, Bhuj",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Hamirsar-Lake.jpg"
+      },
+      { 
+        "SrNo": 15, 
+        "place": "Mandvi Beach",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Mandvi-Beach.jpg"
+      },
+      { 
+        "SrNo": 16, 
+        "place": "Navjivan Nature Cure center",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Navjivan-Nature-Cure-Centre.jpg"
+      },
+      { 
+        "SrNo": 17, 
+        "place": "Surkotada Indus Vally Civilization",
+        "description": "",
+        "city": "",
+        "image": "Kutch/surkotada-civilization.jpg"
+      },
+      { 
+        "SrNo": 18, 
+        "place": "Road To Heaven",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Road-To-Heaven.jpg"
+      },
+      { 
+        "SrNo": 19, 
+        "place": "Kalo Dungar",
+        "description": "",
+        "city": "",
+        "image": "Kutch/Kalo-Dungar.jpg"
+      },
+      { 
+        "SrNo": 20, 
+        "place": "Tere Village",
+        "description": "",
+        "city": "",
+        "image": "Kutch/tera-village.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Jamnagar-Dwaraka",
+    "description" : "Jamnagar is a city in Gujarat, India, known for its local crafts, including bandhni and metalware. The city is also home to the Gujarat Ayurveda. The ancient city of Dwarka is located near the Gulf of Kutch in India. The city is home to many temples and is a popular destination for spiritual...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Dwarkadish Temple",
+        "description": "",
+        "city": "Dwaraka",
+        "image": "Jamnagar-Dwaraka/Dwarkadhish-Temple.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Shivrajpur Beach",
+        "description": "",
+        "city": "Dwaraka",
+        "image": "Jamnagar-Dwaraka/shivrajpur-beach.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Gaga Wildlife Sanctuary",
+        "description": "",
+        "city": "Dwaraka",
+        "image": "Jamnagar-Dwaraka/Gaga-Wildlife-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Nageshwar jyotirlinga",
+        "description": "",
+        "city": "Dwaraka",
+        "image": "Jamnagar-Dwaraka/Nageshwar-Jyotirlinga.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Rukmini Devi Temple",
+        "description": "",
+        "city": "Dwaraka",
+        "image": "Jamnagar-Dwaraka/Rukmini-Temple.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Okha Madhi Beach",
+        "description": "",
+        "city": "Dwaraka",
+        "image": "Jamnagar-Dwaraka/Okha-Madhi-Beach.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Khijadia Bird Sanctuary",
+        "description": "",
+        "city": "Jamnagar",
+        "image": "Jamnagar-Dwaraka/Khijadia-Bird-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 8, 
+        "place": "LokAyurved",
+        "description": "",
+        "city": "Jamnagar",
+        "image": "Jamnagar-Dwaraka/Lok-Ayurved.jpg"
+      },
+      { 
+        "SrNo": 9, 
+        "place": "Ranmal lake",
+        "description": "",
+        "city": "Jamnagar",
+        "image": "Jamnagar-Dwaraka/Ranmal-Lake.jpg"
+      },
+      { 
+        "SrNo": 10, 
+        "place": "Narara Island",
+        "description": "",
+        "city": "Jamnagar",
+        "image": "Jamnagar-Dwaraka/Narara-Island.jpg"
+      },
+      { 
+        "SrNo": 11, 
+        "place": "Khambaliya Gate",
+        "description": "",
+        "city": "Jamnagar",
+        "image": "Jamnagar-Dwaraka/Khambaliya-Gate.jpg"
+      },
+      { 
+        "SrNo": 12, 
+        "place": "Bhujiyo Kotho",
+        "description": "",
+        "city": "Jamnagar",
+        "image": "Jamnagar-Dwaraka/Bhujiyo-Kotho.jpg"
+      }
+
+    ]
+  },
+
+  {
+    "districtName": "Porbandar",
+    "description" : "Mahatma Gandhi was born at the seaside city of Porbandar, which is located in the Gujarati state. The seaside city is also thought to be the...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Porbandar Bird Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Porbandar/Porbandar-Bird-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Kirti Mandir",
+        "description": "",
+        "city": "",
+        "image": "Porbandar/Kirti-Mandir-porbandar.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Madhavpur Beach",
+        "description": "",
+        "city": "",
+        "image": "Porbandar/Madhavpur-Beach.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Sudama Mandir",
+        "description": "",
+        "city": "",
+        "image": "Porbandar/Sudama-Mandir.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Barda Hills Wildlife Saanctuary",
+        "description": "",
+        "city": "",
+        "image": "Porbandar/Barda-Hills-Wildlife-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Harshid Mata Temple",
+        "description": "",
+        "city": "",
+        "image": "Porbandar/Harshid-Mata-Temple.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Gir-Somanath-Jumagadh",
+    "description" : "The Saurashtra region of India is home to the city of Junagadh and its many famous attractions. The city's market, culture, and its fascinating Art. The Gir Somnath district in Gujarat, India, is home to the Somnath temple, serene beaches, and beautiful architecture. The area is rich in history and...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Gir national Park",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Sasan-Gir.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Somnath Jyotirling Temple",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Somnath-Temple.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Triveni Sangam",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Triveni-Sangam.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Yogashram Nature Cure Center",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/yog-ashram.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Bhuddist Caves if Khapra kodiya",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Buddhist-Caves-of-Khapra-Kodiya.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Navghan Kuwo",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Navghan-Kuvo.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Girnar Hills",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/GIrnar-Background.jpg"
+      },
+      { 
+        "SrNo": 8, 
+        "place": "Moti Baug",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Moti-Baug.jpg"
+      },
+      { 
+        "SrNo": 9, 
+        "place": "Damodar Kund",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Damodar-Kund.jpg"
+      },
+      { 
+        "SrNo": 10, 
+        "place": "Mitiyala Wildlife Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Mitiyala-Wildlife-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 11, 
+        "place": "Adi Kadi Vav",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Adi-Kadi-Vav.jpg"
+      },
+      { 
+        "SrNo": 12, 
+        "place": "Junagadh Heritage Walk",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Junagadh-Heritage.jpg"
+      },
+      { 
+        "SrNo": 13, 
+        "place": "Purnashakti Holistic wellness",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Purnashakti-wellness.jpg"
+      },
+      { 
+        "SrNo": 14, 
+        "place": "baba Pyare Caves",
+        "description": "",
+        "city": "",
+        "image": "Somnath-Junagadh/Baba-Pyare-Caves.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Amreli",
+    "description" : "The city of Amreli, formerly Amaravalli, is in southwestern Gujarat state, west-central India. It is primarily a commercial center with industries.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Ambardi Safari Park",
+        "description": "",
+        "city": "",
+        "image": "Amreli/Ambardi-Safari-Park.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Pania Wildlife Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Amreli/Pania-Wildlife-Sanctuary.jpg"
+      },
+      {
+        "SrNo": 3, 
+        "place": "Shyam Temple",
+        "description": "",
+        "city": "",
+        "image": "Amreli/Tulsishyam-tempel.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Bhavnagar",
+    "description" : "Bhavnagar is a seaside city, located in the state of Gujarat near to the Saurashtra peninsula. Bhavnagar is also famous for its version of the popular.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Velavadar Blackbuck National Park",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Velavadar-Blackbuck-National-Park.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Palitana and Shatrunjaya hill",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Palitana-And-Shatrunjaya-Hill.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Hastagiti Jain Tirth",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Hastagiri-Jain-Tirth.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Nishakalamk Mahadev Temple",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Nishkalank-Mahadev.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Gandgi Smriti",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Gandhi-Smiriti.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Velavadat Bird Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Velavadar-Bird-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Talaja Hills",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/talaja-caves.jpg"
+      },
+      { 
+        "SrNo": 8, 
+        "place": "Nalambag Palace",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Nilambag-palace.jpg"
+      },
+      { 
+        "SrNo": 9, 
+        "place": "Takhteshwar Temple",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Takhteshwar-Temple.jpg"
+      },
+      { 
+        "SrNo": 10, 
+        "place": "Brahm Kund",
+        "description": "",
+        "city": "",
+        "image": "Bhavnagar/Brahm-Kund.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Banaskantha",
+    "description" : "Ambaji is a famous pilgrimage town located in the Banaskantha district of Gujarat. Thousands of devotee’s throng to this ancient temple.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Ambaji Temple",
+        "description": "",
+        "city": "",
+        "image": "Banaskantha/ambaji-temple.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Jessore Sloth Bear Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Banaskantha/Jessore-Sloth-Bear-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Balaram Ambaji Wildlife Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Banaskantha/Balaram-Ambaji-Wildlife-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Mangalya Van",
+        "description": "",
+        "city": "",
+        "image": "Banaskantha/Mangalya-Van.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Seema Darchan - Nada Bet",
+        "description": "",
+        "city": "",
+        "image": "Banaskantha/Seema-Darshan.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Patan",
+    "description" : "One of the best hand-made textiles in the world, Patola sarees, are known for being produced in Patan, the former capital of Gujarat.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Rani Ki Vav",
+        "description": "",
+        "city": "",
+        "image": "Patan/Rani-Ki-Vav.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Panchasara Parshwanath Jain Derasar",
+        "description": "",
+        "city": "",
+        "image": "Patan/Panchasara-Parshwanath-Jain-Derasar.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Patan Patola Heritage Museum",
+        "description": "",
+        "city": "",
+        "image": "Patan/Patan-Patola-Heritage-Museum.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Bohra Vad, Sidhpur",
+        "description": "",
+        "city": "",
+        "image": "Patan/Sidhpur.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Mehsana",
+    "description" : "Anand is a town in the Anand district of state Gujarat, India. It is often called 'The Milk City of India'.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Modhera Sun Temple",
+        "description": "",
+        "city": "",
+        "image": "Mehsana/Sun-Temple.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Taranga Caves",
+        "description": "",
+        "city": "",
+        "image": "Mehsana/Taranga-caves.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Taranga Jain Temple",
+        "description": "",
+        "city": "",
+        "image": "Mehsana/Taranga-Jain-Temple.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Shankus Naturel Health Centre",
+        "description": "",
+        "city": "",
+        "image": "Mehsana/Shankus-Natural-Health-Centre.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Shri Valinath Temple",
+        "description": "",
+        "city": "",
+        "image": "Mehsana/valinath.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Kirti Toran, Vadnagar",
+        "description": "",
+        "city": "",
+        "image": "Mehsana/Kirti-Toran.jpg"
+      },
+      { 
+        "SrNo": 7,
+        "place": "Vadnagar-Buddihidt Monastery",
+        "description": "",
+        "city": "",
+        "image": "Mehsana/Bahuchar-Mata.jpg"
+      },
+      { 
+        "SrNo": 8, 
+        "place": "Bahuchar Mata Temple Becharaji",
+        "description": "",
+        "city": "",
+        "image": "Mehsana/vadnagar-buddhist-monastery.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Sabarkantha-Aravalli",
+    "description" : "Idar, an important town in Sabarkantha, serves as an excellent starting point for trips to places like Khedbrahma, Vijaynagar, and Poshina. Arvalli district is in the heart of the Aravalli hill range and it is famous for its Forestry and natural beauty.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Polo Tent City and Resort",
+        "description": "",
+        "city": "",
+        "image": "Sabarkantha-Aravalli/polo-tent-city.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Dowlat Vilas Palace",
+        "description": "",
+        "city": "",
+        "image": "Sabarkantha-Aravalli/Dowlat-Vilas-Palace.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Idar Fort",
+        "description": "",
+        "city": "",
+        "image": "Sabarkantha-Aravalli/Idar-Fort.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Polo Forest",
+        "description": "",
+        "city": "",
+        "image": "Sabarkantha-Aravalli/Polo-Forest.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Shamlaji Temple",
+        "description": "",
+        "city": "",
+        "image": "Sabarkantha-Aravalli/Shamlaji-Temple.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Dev Ni Mori",
+        "description": "",
+        "city": "",
+        "image": "Sabarkantha-Aravalli/Dev-ni-Mori.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Kheda",
+    "description" : "The temples of Kheda district of Gujarat are a spiritual haven for those who seek enlightenment and serenity.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Galteshwar Mahadev Temple",
+        "description": "",
+        "city": "",
+        "image": "Kheda/Galteshwar-Temple.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Ranchhodrai Temple, Dakor",
+        "description": "",
+        "city": "",
+        "image": "Kheda/Ranchodrai-Temple-Dakor.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Dahod",
+    "description" : "Dahod is known for its distinctive handicrafts and handloom industries. You can also find some delicious Gujarati thalis in the city.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Ratanmahal Sloth Bear Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Dahod/Ratanmahal-Sloth-Bear-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Balasinor Dinosaur Museum, Mahisagar",
+        "description": "",
+        "city": "",
+        "image": "Dahod/Balasinor-Dinosaur-Museum.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Panchmahal",
+    "description" : "On the eastern edge of Gujarat, is the district of Panchmahal. Given that it is a UNESCO World Heritage Site, the Champaner-Pavagadh Archaeological.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Jambughoda Wildlife Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Panchmahal/Jambughoda-Wildlife-Sanctuary.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Jami Masjid, Champaner",
+        "description": "",
+        "city": "",
+        "image": "Panchmahal/Jami-Masjid.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Citadel",
+        "description": "",
+        "city": "",
+        "image": "Panchmahal/Citadel-sat-kaman.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Kalika Mata Temple, Pavagadh",
+        "description": "",
+        "city": "",
+        "image": "Panchmahal/pavagadh-temple.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Kevada Masjid",
+        "description": "",
+        "city": "",
+        "image": "Panchmahal/Kevda-Masjid.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Nagina Masjid",
+        "description": "",
+        "city": "",
+        "image": "Panchmahal/Nagina-Masjid.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Vadodara-chhota-Udepur",
+    "description" : "Patola silk sarees, bandhnis and traditional ghagras, embroidered blankets, bracelets, jewellery, and khadi are all well-known products from Vadodara. Chhota Udaipur, town of 108 temples, is an Indian city in the state of Gujarat. It lies on the edge of a big lake.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Laxmi Vilas Palace",
+        "description": "",
+        "city": "",
+        "image": "Vadodara/Laxmi-Vilas-Palace.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Vadodara Heritage Walk",
+        "description": "",
+        "city": "",
+        "image": "Vadodara/Vadodara-Heritage-Walk.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Baroda Museum And Picture Gallery",
+        "description": "",
+        "city": "",
+        "image": "Vadodara/Baroda-Museum-And-Picture-Gallery.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "The Gaekwad Baroda Golf Club",
+        "description": "",
+        "city": "",
+        "image": "Vadodara/The-Gaekwad-Baroda-Golf-Club.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Kirti Mandir",
+        "description": "",
+        "city": "",
+        "image": "Vadodara/Kirti-Mandir.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Sursagar lake",
+        "description": "",
+        "city": "",
+        "image": "Vadodara/Sursagar-Lake.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Kamati Baug",
+        "description": "",
+        "city": "",
+        "image": "Vadodara/Kamati-Baug.jpg"
+      },
+      { 
+        "SrNo": 8, 
+        "place": "kusum vilas palace",
+        "description": "",
+        "city": "",
+        "image": "Vadodara/kusum-vilas-palace.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Bharuch",
+    "description" : "Bharuch is a taluka and situated on the banks of river Narmada in the Bharuch district in Gujarat India. Famous for its salty peanuts & quality.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Kadia Dungar Bhddhist Cave",
+        "description": "",
+        "city": "",
+        "image": "Bharuch/Kadia-Dungar-Caves.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Kabirvad",
+        "description": "",
+        "city": "",
+        "image": "Bharuch/Kabirvad.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Narmada",
+    "description" : "Looking for a breathtaking natural destination in Gujarat? Look no further than the stunning waterfalls of the Narmada district! Marvel at the beauty...",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Statue Of Unity",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Statue-Of-Unity.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Butterfly Garden",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Butterfly-Garden.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Glow Garden",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Unity-glow.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Cactus Garden",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Catcus-Garden.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Ekta Nursery",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Ekta-Nursery.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Arogya Van",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Arogya-Van.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Valley of Flowers",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Valley-Of-Flowers.jpg"
+      },
+      { 
+        "SrNo": 8, 
+        "place": "Zarwani Waterfall",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Zarwani.jpg"
+      },
+      { 
+        "SrNo": 9, 
+        "place": "Vishal Khadi Eco Campsite",
+        "description": "",
+        "city": "",
+        "image": "Narmada/vishal-khadi.jpg"
+      },
+      { 
+        "SrNo": 10, 
+        "place": "Ninai Waterfalls",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Ninai-Waterfall.jpg"
+      },
+      { 
+        "SrNo": 11, 
+        "place": "Shoolpaneshwar Wildlife Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Narmada/Shoolpaneshwar-Wildlife-Sanctuary.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Surat-Tapi",
+    "description" : "Gujarat, a state in western India, has a significant city called Surat by the Tapi River. It is also recognised as the largest diamond manufacturing. The five talukas that make up the newly created Tapi district are Vyara, Songadh, Uchchal, Nizar, and Valod.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "British Cemetery",
+        "description": "",
+        "city": "",
+        "image": "Surat-Tapi/English-Cemetery.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Dutch Cemetery",
+        "description": "",
+        "city": "",
+        "image": "Surat-Tapi/Dutch-Cemetery.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Suvali Beach",
+        "description": "",
+        "city": "",
+        "image": "Surat-Tapi/Suvali-Beach.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Dumas Beach",
+        "description": "",
+        "city": "",
+        "image": "Surat-Tapi/Dumas-Beach.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Kilad Nature Education Campsite",
+        "description": "",
+        "city": "",
+        "image": "Surat-Tapi/kilad-camp.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Kisna Nature Park",
+        "description": "",
+        "city": "",
+        "image": "Surat-Tapi/Kisna.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Padam Dungri Eco Tourism",
+        "description": "",
+        "city": "",
+        "image": "Surat-Tapi/Padam-Dungri-Eco-Tourism.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Dang",
+    "description" : "The Dang district in the Aravallis is a breathtakingly beautiful part of Gujarat, with stunning waterfalls and lush vegetation. They are a perfect.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Girmal Waterfalls",
+        "description": "",
+        "city": "",
+        "image": "Dang/Girmal-Waterfalls.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Don Hills Station",
+        "description": "",
+        "city": "",
+        "image": "Dang/Don-Hill-Station.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Gira Waterfalls",
+        "description": "",
+        "city": "",
+        "image": "Dang/Gira-Waterfalls.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Waghai Botanical Gardens",
+        "description": "",
+        "city": "",
+        "image": "Dang/Waghai-Botanical-Gardens.jpg"
+      },
+      { 
+        "SrNo": 5, 
+        "place": "Saputara Lake",
+        "description": "",
+        "city": "",
+        "image": "Dang/Saputara-Lake.jpg"
+      },
+      { 
+        "SrNo": 6, 
+        "place": "Mahal Eco campsite",
+        "description": "",
+        "city": "",
+        "image": "Dang/mahal-eco-campsite.jpg"
+      },
+      { 
+        "SrNo": 7, 
+        "place": "Purna Wildlife Sanctuary",
+        "description": "",
+        "city": "",
+        "image": "Dang/Purna-Wildlife-Sanctuary.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Navsari",
+    "description" : "Gujarat's most significant district, Navsari, is only 40 kilometres from Surat and is situated between Valsad and Surat, close to the Purna River.",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "National Salt satyagraha Memorial",
+        "description": "",
+        "city": "",
+        "image": "Navsari/National-Salt-satyagraha-Memorial.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Vansda National Park",
+        "description": "",
+        "city": "",
+        "image": "Navsari/Vansda-National-Park.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Vanil eco Den",
+        "description": "",
+        "city": "",
+        "image": "Navsari/Vanil-eco-den.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Dandi Beach",
+        "description": "",
+        "city": "",
+        "image": "Navsari/Dandi-beach.jpg"
+      }
+    ]
+  },
+
+  {
+    "districtName": "Valsad",
+    "description" : "Previously known as Bulsar, Valsad district's offers some unique travel destinations. It's well-known for its mango plantations and becoming a major Expoter",
+    "content":[
+      { 
+        "SrNo": 1, 
+        "place": "Udvad Paris fire Temple",
+        "description": "",
+        "city": "",
+        "image": "Valsad/Udvada-Parsi,-Udvada.jpg"
+      },
+      { 
+        "SrNo": 2, 
+        "place": "Shrimad Rajchandra Ashram, Dharampur",
+        "description": "",
+        "city": "",
+        "image": "Valsad/shrimad-rajchandra-yoga.jpg"
+      },
+      { 
+        "SrNo": 3, 
+        "place": "Tithal Beach",
+        "description": "",
+        "city": "",
+        "image": "Valsad/Tithal-Beach.jpg"
+      },
+      { 
+        "SrNo": 4, 
+        "place": "Nargol Beach",
+        "description": "",
+        "city": "",
+        "image": "Valsad/Nargol-Beach.jpg"
+      }
+    ]
+  }
+
+]
