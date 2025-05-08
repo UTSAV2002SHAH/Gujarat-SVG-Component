@@ -58,7 +58,7 @@ const MapSlider: React.FC<MapSliderProps> = ({ district }) => {
     <div className="relative w-full h-full mx-auto ">
       {/* Swiper with custom navigation class selectors */}
       <Swiper
-        modules={[Navigation  ]}
+        modules={[Navigation]}
         loop={true}
         pagination={{ clickable: true }}
         navigation={{
@@ -90,7 +90,7 @@ const MapSlider: React.FC<MapSliderProps> = ({ district }) => {
             <div className="flex h-full gap-1 justify-center items-center">
               <div className="relative w-full h-full overflow-hidden group rounded-tl-2xl rounded-br-2xl">
                 <img
-                  src={`/Images/${place.image}`}
+                  src={`./Images/${place.image}`}
                   alt={place.place}
                   className="w-full h-full object-cover transition duration-300 ease-in-out group-hover:scale-105"
                 />
