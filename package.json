@@ -5,11 +5,10 @@
   "homepage": "https://UTSAV2002SHAH.github.io/Gujarat-SVG-Component",
   "scripts": {
     "dev": "next dev -p 3001",
-    "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "build": "next build",
     "export": "next export",
-    "predeploy": "npm run build && npm run export",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
