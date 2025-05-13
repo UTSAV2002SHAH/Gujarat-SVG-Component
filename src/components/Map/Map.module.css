@@ -1,0 +1,29 @@
+/* Styling the map container */
+.mapContainer {
+    position: relative;
+    background-color: gray; /* Set the background color */
+  }
+
+  /* Styling for inline SVG */
+  .svgMap {
+    width: 80%;
+    height: 80%;
+    cursor: pointer;
+    background: black;
+  }
+
+/* Add this to your CSS */
+.district {
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+.district:hover {
+  fill: orange; /* Change fill color when hovered (optional) */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+  transform: scale(1.05);
+}
+
+  /* Styling for the SVG image */
+  /* .svgImage {
+    cursor: pointer;
+} */
