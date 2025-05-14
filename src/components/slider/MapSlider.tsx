@@ -2,7 +2,7 @@
 
 import React, { useMemo } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Navigation } from "swiper/modules";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -10,8 +10,6 @@ import "swiper/css/pagination";
 
 // Icon imports
 import {
-  faArrowLeftLong,
-  faArrowRightLong,
   faCircleChevronLeft,
   faCircleChevronRight,
 } from "@fortawesome/free-solid-svg-icons";

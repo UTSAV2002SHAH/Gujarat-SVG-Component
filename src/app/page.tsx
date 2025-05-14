@@ -4,7 +4,6 @@
 
 // Custom Components Import
 import DropdownMenu from "../components/DropdownMenu";
-import FeatureBox from "../components/FeatureBox";
 import GujaratMap from "@/components/Map/GujaratMap";
 
 // Icon Imports
@@ -28,8 +27,8 @@ import {
   faShieldHalved,
 } from "@fortawesome/free-solid-svg-icons";
 
-import Image from "next/image";
-import { useEffect, useState } from "react";
+// import Image from "next/image";
+import { useState } from "react";
 
 const productData = [
   {
@@ -154,22 +153,9 @@ export default function Home() {
   const [isDiscussionHovering, setDiscussionHovering] = useState(false);
   const [isCommunityHovering, setCommunityHovering] = useState(false);
 
-  const productItems = ["Item 1", "Item 2", "Item 3", "Item 4"];
-
-  const NorthenImages = [
-    "/Images/Northen-lights-1.jpg",
-    "/Images/Northen-lights-2.webp",
-    "/Images/Northen-lights-3.jpg",
-  ]
-
-  const milkyWay = [
-    "/Images/Galaxy-1.jpg",
-    "/Images/Galaxy-2.jpg",
-    "/Images/Galaxy-3.jpg",
-  ]
 
   return (
-    <div className=" main min-w-screen min-h-screen p-0 flex flex-col bg-[#1f1f5f]"> 
+    <div className=" main min-w-screen min-h-screen p-0 flex flex-col bg-[#1f1f5f]">
       <div className="min-w-screen sticky top-0 min-h-10 bg-gray-700 z-10">
         1
       </div>
@@ -308,9 +294,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-        
+
       <main className="min-w-screen bg-white z-8">
-      {/* bg-[url('https://www.gujarattourism.com/content/dam/gujrattourism/images/destinations/junagadh/attractions/girnar-hill/GIrnar-Header.jpg')] bg-cover bg-center */}
+        {/* bg-[url('https://www.gujarattourism.com/content/dam/gujrattourism/images/destinations/junagadh/attractions/girnar-hill/GIrnar-Header.jpg')] bg-cover bg-center */}
         {/* <div className="TopicsList flex w-auto items-center justify-center">
           <div className="flex w-screen h-[500px] text-black bg-[#1f1f5f] border-2 border-black items-center justify-center">
             <span>Hello World</span>
