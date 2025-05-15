@@ -21,7 +21,7 @@ const GujaratMap: React.FC = () => {
   // const [hoveredPlace, setHoveredPlace] = useState("");
   const [clickedDistrict, setClickedDistrict] = useState("TopDestinations");
   const [optionSelected, setOptionSelected] = useState("Circuit");
-  const [circuitSelected , setCircuitSelected] = useState("All");
+  const [circuitSelected, setCircuitSelected] = useState("All");
 
   // Handle mouse enter on a district
   const handleMouseEnter = (districtName: any) => {
@@ -37,9 +37,9 @@ const GujaratMap: React.FC = () => {
     setClickedDistrict(districtName);
   };
 
-  const handleButtonClick = (buttonName: string)=>{
+  const handleButtonClick = (buttonName: string) => {
     if (buttonName === "Districts") {
-      setCircuitSelected("None"); 
+      setCircuitSelected("None");
     }
     setOptionSelected(buttonName);
   };
@@ -49,15 +49,15 @@ const GujaratMap: React.FC = () => {
   };
 
   // creating fun and passing to <circuit/> component
-  const handleCircuitSelect = (circuit : string) => {
+  const handleCircuitSelect = (circuit: string) => {
     setCircuitSelected(circuit);
   }
 
 
-  useEffect(()=>{
-    function handle(e:any) {
+  useEffect(() => {
+    function handle(e: any) {
       setMousePosition({
-        x : e.pageX,
+        x: e.pageX,
         y: e.pageY
       });
     }
@@ -67,17 +67,17 @@ const GujaratMap: React.FC = () => {
   })
 
   interface districtData {
-    districtName : string,
-    description : string
+    districtName: string,
+    description: string
   }
 
   const district = useMemo(() => {
     const districtInfo = (data as districtData[]).find(
       (d) => d.districtName.toLowerCase() === clickedDistrict?.toLowerCase()
     );
-  
+
     if (!districtInfo) return null;
-  
+
     return {
       districtName: districtInfo.districtName,
       description: districtInfo.description
@@ -93,10 +93,10 @@ const GujaratMap: React.FC = () => {
   return (
     <div
       className="mr-2 relative flex flex-col w-screen min-h-[780px] h-fit  justify-center items-center"
-      // onMouseMove={handleMouseMove}
+    // onMouseMove={handleMouseMove}
     >
       <div className="flex w-screen justify-evenly items-center gap-2 sm:py-4">
-        {(optionSelected === "Districts") && 
+        {(optionSelected === "Districts") &&
           <>
             <div className="hidden  w-auto h-[85px] justify-center items-center gap-2">
               <div className="p-[5px] w-fit h-fit">
@@ -160,7 +160,7 @@ const GujaratMap: React.FC = () => {
 
 
 
-        
+
 
 
         <div className=" flex  h-auto justify-center items-center">
@@ -174,11 +174,10 @@ const GujaratMap: React.FC = () => {
             className={`px-4 py-2 sm:px-6 sm:py-3 border-b-2 sm:border-b-4 
                         text-base sm:text-lg lg:text-xl font-semibold 
                         cursor-pointer transition-colors duration-300
-                        ${
-                          optionSelected === "Circuit"
-                            ? "text-orange-400 border-orange-400"
-                            : "text-gray-400 border-gray-400"
-                        }`}
+                        ${optionSelected === "Circuit"
+                ? "text-orange-400 border-orange-400"
+                : "text-gray-400 border-gray-400"
+              }`}
             onClick={() => handleButtonClick("Circuit")}
           >
             <span>Circuit</span>
@@ -188,11 +187,10 @@ const GujaratMap: React.FC = () => {
             className={`px-4 py-2 sm:px-6 sm:py-3 border-b-2 sm:border-b-4 
                         text-base sm:text-lg lg:text-xl font-semibold 
                         cursor-pointer transition-colors duration-300
-                        ${
-                          optionSelected === "Districts"
-                            ? "text-orange-400 border-orange-400"
-                            : "text-gray-400 border-gray-400"
-                        }`}
+                        ${optionSelected === "Districts"
+                ? "text-orange-400 border-orange-400"
+                : "text-gray-400 border-gray-400"
+              }`}
             onClick={() => handleButtonClick("Districts")}
           >
             <span>Districts</span>
@@ -202,25 +200,25 @@ const GujaratMap: React.FC = () => {
 
       <div className="flex flex-row max-lg:flex-col mt-5 w-screen justify-center items-center">
         {(optionSelected === "Districts") &&
-         <div className="flex flex-col w-[320px] sm:w-[480px] md:w-[720px] max-w-[950px] h-130 sm:ml-5 md:ml-8 lg:ml-10 justify-evenly items-center bg-white">
-          <div className="flex flex-col w-full h-2/5 justify-center">
-            <div className="relative flex h-40 border-3 ml-4 mr-4 text-black border-orange-400 justify-center items-center">
+          <div className="flex flex-col w-[320px] sm:w-[480px] md:w-[720px] max-w-[950px] h-130 sm:ml-5 md:ml-8 lg:ml-10 justify-evenly items-center bg-white">
+            <div className="flex flex-col w-full h-2/5 justify-center">
+              <div className="relative flex h-40 border-3 ml-4 mr-4 text-black border-orange-400 justify-center items-center">
 
-              <div className="absolute -top-5  left-2 bg-white px-2 text-3xl z-10">
-                <span className="text-orange-400">{clickedDistrict}</span>
-              </div>                         
-              <span className="px-2 py-2 mx-4 text-xl">{district?.description}</span>
-            
+                <div className="absolute -top-5  left-2 bg-white px-2 text-3xl z-10">
+                  <span className="text-orange-400">{clickedDistrict}</span>
+                </div>
+                <span className="px-2 py-2 mx-4 text-xl">{district?.description}</span>
+
+              </div>
             </div>
-          </div>
-          <div className="flex w-[320px] sm:w-[480px] md:w-[710px] h-3/5 mb-2 justify-center items-center">
-            <MapSlider district={clickedDistrict}/>
-          </div>
-         </div>}
+            <div className="flex w-[320px] sm:w-[480px] md:w-[710px] h-3/5 mb-2 justify-center items-center">
+              <MapSlider district={clickedDistrict} />
+            </div>
+          </div>}
 
         {(optionSelected === "Circuit") && <div className="flex w-auto h-auto ml-10 items-center bg-white rounded-2xl">
-            <Circuit1 onSelectCircuit={setCircuitSelected}/>
-          </div>}
+          <Circuit1 onSelectCircuit={setCircuitSelected} />
+        </div>}
 
         <div className="ActualGujMap relative w-full max-w-[900px] sm:w-  ">
           <svg
@@ -583,7 +581,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Mitiyala Wilflife Sanctuary")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Wildlife-Pointer.jpg"
                     x="110"
@@ -594,7 +592,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Gaga Wilflife Sanctuary")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Wildlife-Pointer.jpg"
                     x="60"
@@ -759,7 +757,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Porbandar Bird Sanctuary")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Wildlife-Pointer.jpg"
                     x="350"
@@ -895,7 +893,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Sompura Stone Carving")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Craft-Circuit-pointer.jpg"
                     x="320"
@@ -906,7 +904,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Minakari Furniture")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Craft-Circuit-pointer.jpg"
                     x="530"
@@ -917,7 +915,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Beadwork, Khambhat")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Craft-Circuit-pointer.jpg"
                     x="730"
@@ -928,7 +926,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Pithora Paintings")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Craft-Circuit-pointer.jpg"
                     x="680"
@@ -939,7 +937,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Bamboo Crafts")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Craft-Circuit-pointer.jpg"
                     x="600"
@@ -950,7 +948,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Clay & Terracotta art")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Craft-Circuit-pointer.jpg"
                     x="380"
@@ -976,7 +974,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Ranchhodarai Temple, Dakor")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Krishna-Braj-Circuit.jpg"
                     x="90"
@@ -987,7 +985,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Dwarkadhish Temple")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Krishna-Braj-Circuit.jpg"
                     x="95"
@@ -998,7 +996,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Rukmini Devi Temple")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Krishna-Braj-Circuit.jpg"
                     x="115"
@@ -1009,7 +1007,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Shri Keshavraj Temple")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Krishna-Braj-Circuit.jpg"
                     x="255"
@@ -1020,7 +1018,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter(" Radha Damodar Temple")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Krishna-Braj-Circuit.jpg"
                     x="180"
@@ -1046,7 +1044,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Ambaji Shakti Peeth")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="630"
@@ -1057,7 +1055,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Shree Mahakali Mataji Temple")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="265"
@@ -1066,9 +1064,9 @@ const GujaratMap: React.FC = () => {
                     height="30"
                     className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
                     onMouseEnter={() => handleMouseEnter("Prabhas Shakti Peeth, Veraval")}
-                    onMouseLeave={handleMouseLeave} 
+                    onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="515"
@@ -1079,7 +1077,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Modheshwari Mata Temple, Modhera")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="340"
@@ -1105,7 +1103,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Kadia Dungar Caves")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Buddhist-circuit-Pointer.jpg"
                     x="295"
@@ -1116,7 +1114,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Khambhalida Caves")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Buddhist-circuit-Pointer.jpg"
                     x="80"
@@ -1127,7 +1125,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Siyot Caves")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Buddhist-circuit-Pointer.jpg"
                     x="479"
@@ -1138,7 +1136,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Talaja Caves")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Buddhist-circuit-Pointer.jpg"
                     x="275"
@@ -1149,7 +1147,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Uparkot Caves")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Buddhist-circuit-Pointer.jpg"
                     x="540"
@@ -1160,7 +1158,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Vadnagar Monastery")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Buddhist-circuit-Pointer.jpg"
                     x="645"
@@ -1171,7 +1169,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Dev Ni Mori Stupa")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Buddhist-circuit-Pointer.jpg"
                     x="645"
@@ -1198,7 +1196,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Hot Air Balloon")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="575"
@@ -1209,7 +1207,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Dandi Beach")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="270"
@@ -1220,7 +1218,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Paragliding")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="84"
@@ -1231,7 +1229,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Shivrajpur Beach")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="130"
@@ -1242,7 +1240,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Mandvi Beach")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="585"
@@ -1253,7 +1251,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Tithal Beach")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="320"
@@ -1264,7 +1262,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Ghogla Beach, Diu")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="300"
@@ -1275,7 +1273,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Nagoa Beach, Diu")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="550"
@@ -1286,7 +1284,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Suvali Beach, Surat")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="560"
@@ -1297,7 +1295,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Dumas Beach, Surat")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="570"
@@ -1308,7 +1306,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Ubhrat Beach")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="175"
@@ -1319,7 +1317,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Porbandar Beach")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="350"
@@ -1330,7 +1328,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Jallandhar Beach")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="70"
@@ -1357,7 +1355,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Uparkot fort")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="225"
@@ -1368,7 +1366,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Bhujiyo Kotho")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="560"
@@ -1379,7 +1377,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Surat Castle")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="55"
@@ -1390,7 +1388,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Lakhpat Fort")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="620"
@@ -1401,7 +1399,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Idar Fort")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="525"
@@ -1412,7 +1410,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Bhadra Fort")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="610"
@@ -1423,7 +1421,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Laxmi Vilas Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="125"
@@ -1434,7 +1432,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Vijay Vilas Palace, Mandavi")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="495"
@@ -1445,7 +1443,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Nilambag Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="335"
@@ -1456,7 +1454,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Royal Oasis Wankaner")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="310"
@@ -1467,7 +1465,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Riverside Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="295"
@@ -1478,7 +1476,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Khirasara Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="330"
@@ -1489,7 +1487,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Orchard Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="620"
@@ -1500,7 +1498,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Dowlat Vilas Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="175"
@@ -1511,7 +1509,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Sharad Bagh Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="725"
@@ -1522,7 +1520,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Kusum Vilas Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="510"
@@ -1533,7 +1531,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Hazur Palace")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="490"
@@ -1544,7 +1542,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Rani Ni Vav")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="550"
@@ -1555,7 +1553,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Adalaj Ni Vav")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="240"
@@ -1566,7 +1564,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Adi Kadi Vav")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="250"
@@ -1577,7 +1575,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Navghan Kuwo")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="515"
@@ -1588,7 +1586,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Bai Harir Mi Vav")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="490"
@@ -1599,7 +1597,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Ahmedabad Heritage Walk")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="600"
@@ -1610,7 +1608,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Vadodara Heritage Walk")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="290"
@@ -1621,7 +1619,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Junagadh Heritage Walk")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="490"
@@ -1632,7 +1630,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Modhera Sun Temple")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="490"
@@ -1646,6 +1644,140 @@ const GujaratMap: React.FC = () => {
 
                 </>
               )}
+
+              {((circuitSelected === "Jain") || (circuitSelected === "All")) && (
+                <>
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="470"
+                    y="390"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Hastagiri Jain Tirth")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="445"
+                    y="95"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Shankheshwar jain tirth")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="525"
+                    y="210"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Hathigadhi Jain Tirth")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="455"
+                    y="385"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Palitana Jain Tirth")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="260"
+                    y="385"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Girnar Jain Tirth")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="215"
+                    y="195"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Shri Bhadreshwar Jain Tirth")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="550"
+                    y="165"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Mahudi Jain Tirth")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="580"
+                    y="25"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Kumbhariya Jain Mandir, Ambaji")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="570"
+                    y="35"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Taranga Jain Tirth")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="240"
+                    y="250"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Vasupujya Swami Temple")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="190"
+                    y="375"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("108 Baleja Parshwnath")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="550"
+                    y="275"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("78 Jain Temples in Khanbhat")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                </>
+              )
+              }
 
 
             </g>
