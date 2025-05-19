@@ -44,17 +44,6 @@ const Circuit1 = ({ onSelectCircuit }: any) => {
                 </div>
 
                 <div
-                    className='flex flex-row text-yellow-600 font-semibold font-serif ml-2 p-3 cursor-pointer  hover:shadow-2xl'
-                    onClick={() => { onSelectCircuit("Aadhyatmik") }}
-                >
-                    <img src="/Images/Circuits/Adhyatmik-Circuits.png" alt="" loading="lazy" />
-                    <div className='flex flex-col'>
-                        <span className='text-xl'>Aadhyatmik</span>
-                        <span className='text-xl'>Circuit</span>
-                    </div>
-                </div>
-
-                <div
                     className='flex flex-row text-green-600 font-semibold font-serif ml-2 p-3 cursor-pointer hover:shadow-2xl'
                     onClick={() => { onSelectCircuit("Wildlife") }}
                 >
@@ -104,17 +93,6 @@ const Circuit1 = ({ onSelectCircuit }: any) => {
                     <img src="/Images/Circuits/Adhyatmik-Circuits.png" alt="" loading="lazy" />
                     <div className='flex flex-col'>
                         <span className='text-xl'>Adventure</span>
-                        <span className='text-xl'>Circuit</span>
-                    </div>
-                </div>
-
-                <div
-                    className='flex flex-row text-pink-800 font-semibold font-serif mr-2 p-3 cursor-pointer hover:shadow-2xl'
-                    onClick={() => { onSelectCircuit("Festivals") }}
-                >
-                    <img src="/Images/Circuits/Shakti-Pith-Circuits.png" alt="" loading="lazy" />
-                    <div className='flex flex-col'>
-                        <span className='text-xl'>Festivals</span>
                         <span className='text-xl'>Circuit</span>
                     </div>
                 </div>

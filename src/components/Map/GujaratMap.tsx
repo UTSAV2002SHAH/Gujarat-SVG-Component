@@ -1776,8 +1776,167 @@ const GujaratMap: React.FC = () => {
                     onMouseLeave={handleMouseLeave}
                   />
                 </>
-              )
-              }
+              )}
+
+              {((circuitSelected === "Cuisine") || (circuitSelected === "All")) && (
+                <>
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="590"
+                    y="460"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Locho")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="190"
+                    y="110"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Kutchi Dabeli")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="500"
+                    y="230"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Khakhara")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="580"
+                    y="220"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Lal Mathiya")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="550"
+                    y="265"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Mug Pulav")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="450"
+                    y="365"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Bhavnagari Gathiya")}
+                    onMouseLeave={handleMouseLeave}
+                  />  
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="450"
+                    y="105"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Patola Handvo")}
+                    onMouseLeave={handleMouseLeave}
+                  />  
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="310"
+                    y="335"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Khandvi")}
+                    onMouseLeave={handleMouseLeave}
+                  />  
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="320"
+                    y="245"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Patra")}
+                    onMouseLeave={handleMouseLeave}
+                  />  
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="630"
+                    y="410"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Ghari")}
+                    onMouseLeave={handleMouseLeave}
+                  />  
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="630"
+                    y="290"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Sev Usal")}
+                    onMouseLeave={handleMouseLeave}
+                  />  
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="200"
+                    y="360"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Khajali")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="665"
+                    y="220"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Puran Poli")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+                  
+                  <image
+                    href="/Images/Markers/map-marker.svg"
+                    x="560"
+                    y="165"
+                    width="30"
+                    height="30"
+                    className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
+                    onMouseEnter={() => handleMouseEnter("Lodra Khaman")}
+                    onMouseLeave={handleMouseLeave}
+                  />
+
+                </>
+              )}
+
 
 
             </g>
