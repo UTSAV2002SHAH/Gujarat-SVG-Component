@@ -2019,7 +2019,7 @@ const GujaratMap: React.FC = () => {
             left: `${mousePosition.x - 60}px`,
           }}
         >
-          <span className="w-auto ml-2 bg-white text-orange-400 font-serif text-center rounded-lg p-2 shadow-2xl shadow-black">
+          <span className="w-auto ml-2 bg-white text-orange-600 font-serif text-center rounded-lg p-2 shadow-2xl shadow-black">
             {hoveredDistrict}
           </span>
         </div>
