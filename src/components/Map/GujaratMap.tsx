@@ -200,14 +200,14 @@ const GujaratMap: React.FC = () => {
 
       <div className="flex flex-row max-lg:flex-col mt-5 w-screen justify-center items-center">
         {(optionSelected === "Districts") &&
-          <div className="flex flex-col w-[320px] sm:w-[480px] md:w-[720px] max-w-[950px] h-130 sm:ml-5 md:ml-8 lg:ml-10 justify-evenly items-center bg-white">
+          <div className="flex flex-col w-[320px] sm:w-[480px] md:w-[720px] max-w-[950px] h-100 sm:ml-5 md:ml-8 lg:ml-10 justify-evenly items-center bg-white">
             <div className="flex flex-col w-full h-2/5 justify-center">
               <div className="relative flex h-40 border-3 ml-4 mr-4 text-black border-orange-400 justify-center items-center">
 
                 <div className="absolute -top-5  left-2 bg-white px-2 text-3xl z-10">
                   <span className="text-orange-400">{clickedDistrict}</span>
                 </div>
-                <span className="px-2 py-2 mx-4 text-xl">{district?.description}</span>
+                <span className="px-2 py-2 mx-4 text-lg">{district?.description}</span>
 
               </div>
             </div>
@@ -1044,7 +1044,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Shree Somnath Jyotirling")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="95"
@@ -1055,7 +1055,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Nageshwar Jyotirling")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="505"
@@ -1066,7 +1066,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Niskalank Mahadev")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="30"
@@ -1077,7 +1077,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Koteshwar Mahadev")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="610"
@@ -1088,7 +1088,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Galteshwar Mahadev")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="490"
@@ -1110,7 +1110,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Ambaji Shakti Peeth")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="630"
@@ -1121,7 +1121,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Shree Mahakali Mataji Temple")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="265"
@@ -1130,9 +1130,9 @@ const GujaratMap: React.FC = () => {
                     height="30"
                     className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
                     onMouseEnter={() => handleMouseEnter("Prabhas Shakti Peeth, Veraval")}
-                    onMouseLeave={handleMouseLeave} 
+                    onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="515"
@@ -1143,7 +1143,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Modheshwari Mata Temple, Modhera")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/Shakti-Peeth-Pointer.png"
                     x="340"
@@ -1856,7 +1856,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Locho")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="190"
@@ -1867,7 +1867,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Kutchi Dabeli")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="500"
@@ -1878,7 +1878,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Khakhara")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="580"
@@ -1889,7 +1889,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Lal Mathiya")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="550"
@@ -1900,7 +1900,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Mug Pulav")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="450"
@@ -1910,8 +1910,8 @@ const GujaratMap: React.FC = () => {
                     className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
                     onMouseEnter={() => handleMouseEnter("Bhavnagari Gathiya")}
                     onMouseLeave={handleMouseLeave}
-                  />  
-                  
+                  />
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="450"
@@ -1921,8 +1921,8 @@ const GujaratMap: React.FC = () => {
                     className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
                     onMouseEnter={() => handleMouseEnter("Patola Handvo")}
                     onMouseLeave={handleMouseLeave}
-                  />  
-                  
+                  />
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="310"
@@ -1932,8 +1932,8 @@ const GujaratMap: React.FC = () => {
                     className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
                     onMouseEnter={() => handleMouseEnter("Khandvi")}
                     onMouseLeave={handleMouseLeave}
-                  />  
-                  
+                  />
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="320"
@@ -1943,8 +1943,8 @@ const GujaratMap: React.FC = () => {
                     className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
                     onMouseEnter={() => handleMouseEnter("Patra")}
                     onMouseLeave={handleMouseLeave}
-                  />  
-                  
+                  />
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="630"
@@ -1954,8 +1954,8 @@ const GujaratMap: React.FC = () => {
                     className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
                     onMouseEnter={() => handleMouseEnter("Ghari")}
                     onMouseLeave={handleMouseLeave}
-                  />  
-                  
+                  />
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="630"
@@ -1965,8 +1965,8 @@ const GujaratMap: React.FC = () => {
                     className="absolute cursor-pointer origin-center transition-transform pointer-events-auto"
                     onMouseEnter={() => handleMouseEnter("Sev Usal")}
                     onMouseLeave={handleMouseLeave}
-                  />  
-                  
+                  />
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="200"
@@ -1977,7 +1977,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Khajali")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="665"
@@ -1988,7 +1988,7 @@ const GujaratMap: React.FC = () => {
                     onMouseEnter={() => handleMouseEnter("Puran Poli")}
                     onMouseLeave={handleMouseLeave}
                   />
-                  
+
                   <image
                     href="/Images/Markers/map-marker.svg"
                     x="560"

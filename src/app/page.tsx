@@ -303,7 +303,7 @@ export default function Home() {
           </div>
         </div> */}
 
-        <div className="GujMapDiv min-w-screen flex flex-col justify-items-center items-center">
+        <div className="GujMapDiv min-w-screen flex flex-col justify-center items-center">
 
           {/* <div className="flex w-430 h-140 ml-10 justify-evenly items-center bg-white rounded-2xl">
             <div className="flex w-auto h-auto items-center justify-center text-black">Hello</div>
