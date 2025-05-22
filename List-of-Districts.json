@@ -575,7 +575,7 @@
 
   {
     "districtName": "Ahmedabad",
-    "description" : "Ahmedabad is a city in western India.The Sabarmati River runs through its center. Ahmedabad is famous for its textile industry and is known as the...",
+    "description" : "Ahmedabad is a city in western India.The Sabarmati River runs through its center. Ahmedabad is famous for its textile industry and is known as the Manchester of West.",
     "content":[
       { 
         "SrNo": 1, 
@@ -757,7 +757,7 @@
 
   {
     "districtName": "Rajkot",
-    "description" : "Traditional crafts are well-known in Rajkot (silver work, embroidery, and patola weaving). It is located around 45 miles (72 km) southeast of...",
+    "description" :"Traditional crafts are well-known in Rajkot (silver work, embroidery, and patola weaving). It is located around 45 miles (72 km) southeast of Jamnagar and is a major industrial center with historical links to Mahatma Gandhi's early life.",
     "content":[
       { 
         "SrNo": 1, 
@@ -848,7 +848,7 @@
 
   {
     "districtName": "Gandhinagar",
-    "description" : "Gujarat’s capital, Gandhinagar located on the banks of the Sabarmati River is named after Mahatma Gandhi, the Father of the Nation. It is a...",
+    "description" : "Gujarat’s capital, Gandhinagar located on the banks of the Sabarmati River is named after Mahatma Gandhi, the Father of the Nation. It is a planned city known for its greenery, Akshardham temple, and administrative significance.",
     "content":[
       { 
         "SrNo": 1, 
@@ -904,7 +904,7 @@
 
   {
     "districtName": "Surendranagar",
-    "description" : "With many ginning and pressing factories, Surendranagar in Gujarat is the centre of cotton and ginning activity in India. One of the world's...",
+    "description" : "With many ginning and pressing factories, Surendranagar in Gujarat is the centre of cotton and ginning activity in India. One of the world's largest cotton-producing regions, it also boasts historical sites and vibrant traditional culture.",
     "content":[
       { 
         "SrNo": 1, 
@@ -918,7 +918,7 @@
 
   {
     "districtName": "Kutch",
-    "description" : "Kutch is a vast salt marsh desert in India that is home to many significant sites that belong to the Indus Valley Civilization. Thousands of travelers...",
+    "description" : "Kutch is a vast salt marsh desert in India that is home to many significant sites that belong to the Indus Valley Civilization. Thousands of travelers visit its Rann of Kutch, Kutch Museum, and vibrant handicraft markets every year.",
     "content":[
       { 
         "SrNo": 1, 
@@ -1065,7 +1065,7 @@
 
   {
     "districtName": "Jamnagar-Dwaraka",
-    "description" : "Jamnagar is a city in Gujarat, India, known for its local crafts, including bandhni and metalware. The city is also home to the Gujarat Ayurveda. The ancient city of Dwarka is located near the Gulf of Kutch in India. The city is home to many temples and is a popular destination for spiritual...",
+    "description" : "Jamnagar is a city in Gujarat, India, known for its local crafts, including bandhni and metalware. The city is also home to the Gujarat Ayurveda. The ancient city of Dwarka is located near the Gulf of Kutch in India. The city is home to many temples and is a popular destination for spiritual significance.",
     "content":[
       { 
         "SrNo": 1, 
@@ -1157,7 +1157,7 @@
 
   {
     "districtName": "Porbandar",
-    "description" : "Mahatma Gandhi was born at the seaside city of Porbandar, which is located in the Gujarati state. The seaside city is also thought to be the...",
+    "description" :  "Mahatma Gandhi was born at the seaside city of Porbandar, which is located in the Gujarati state. The seaside city is also thought to be the birthplace of Sudama, Lord Krishna’s childhood friend.",
     "content":[
       { 
         "SrNo": 1, 
@@ -1206,7 +1206,7 @@
 
   {
     "districtName": "Gir-Somanath-Jumagadh",
-    "description" : "The Saurashtra region of India is home to the city of Junagadh and its many famous attractions. The city's market, culture, and its fascinating Art. The Gir Somnath district in Gujarat, India, is home to the Somnath temple, serene beaches, and beautiful architecture. The area is rich in history and...",
+    "description" : "The Saurashtra region of India is home to the city of Junagadh and its many famous attractions. The city's market, culture, and its fascinating art. The Gir Somnath district in Gujarat, India, is home to the Somnath temple, serene beaches, and beautiful architecture. The area is rich in history and wildlife.",
     "content":[
       { 
         "SrNo": 1, 
@@ -1339,7 +1339,7 @@
 
   {
     "districtName": "Bhavnagar",
-    "description" : "Bhavnagar is a seaside city, located in the state of Gujarat near to the Saurashtra peninsula. Bhavnagar is also famous for its version of the popular.",
+    "description" :  "Bhavnagar is a seaside city, located in the state of Gujarat near to the Saurashtra peninsula. Bhavnagar is also famous for its version of the popular Gujarati folk dance, cultural heritage, and historic palaces.",
     "content":[
       { 
         "SrNo": 1, 
@@ -1493,7 +1493,7 @@
 
   {
     "districtName": "Mehsana",
-    "description" : "Anand is a town in the Anand district of state Gujarat, India. It is often called 'The Milk City of India'.",
+    "description" : "Mehsana, located in northern Gujarat, is known for its rich cultural heritage, ancient temples, and Dudhsagar Dairy, one of Asia's largest milk processing plants operating under the Amul. It also features historical stepwells and vibrant local traditions.",
     "content":[
       { 
         "SrNo": 1, 
@@ -1780,7 +1780,7 @@
 
   {
     "districtName": "Narmada",
-    "description" : "Looking for a breathtaking natural destination in Gujarat? Look no further than the stunning waterfalls of the Narmada district! Marvel at the beauty...",
+    "description" :  "Looking for a breathtaking natural destination in Gujarat? Look no further than the stunning waterfalls of the Narmada district! Marvel at the beauty of the picturesque Sardar Patel Statue, Kavitha Waterfall, and the tranquil Narmada River, surrounded by lush greenery.",
     "content":[
       { 
         "SrNo": 1, 
@@ -1920,7 +1920,7 @@
 
   {
     "districtName": "Dang",
-    "description" : "The Dang district in the Aravallis is a breathtakingly beautiful part of Gujarat, with stunning waterfalls and lush vegetation. They are a perfect.",
+    "description" : "The Dang district in the Aravallis is a breathtakingly beautiful part of Gujarat, with stunning waterfalls and lush vegetation. They are perfect.",
     "content":[
       { 
         "SrNo": 1, 
